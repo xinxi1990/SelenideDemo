@@ -1,0 +1,33 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.Test_HomePage",
+    "children" : [ {
+      "name" : "test_homeSerach",
+      "uid" : "707bff1ca9d8092f",
+      "parentUid" : "b6a4df1f4b3dcfd55604867f97592245",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545462128280,
+        "stop" : 1545462132345,
+        "duration" : 4065
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_homeHouse",
+      "uid" : "c696ca28230676d6",
+      "parentUid" : "b6a4df1f4b3dcfd55604867f97592245",
+      "status" : "failed",
+      "time" : {
+        "start" : 1545464724425,
+        "stop" : 1545464729812,
+        "duration" : 5387
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcase.Test_HomePage"
+  } ]
+}

@@ -1,0 +1,37 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "测试首页",
+    "children" : [ {
+      "name" : "测试首页搜索",
+      "children" : [ {
+        "name" : "test_homeSerach",
+        "uid" : "32843e281953202",
+        "parentUid" : "e4b3462c5bc1c1af659428f73eb80538",
+        "status" : "passed",
+        "time" : {
+          "start" : 1545462128280,
+          "stop" : 1545462132345,
+          "duration" : 4065
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e4b3462c5bc1c1af659428f73eb80538"
+    }, {
+      "name" : "test_homeHouse",
+      "uid" : "456b252e8a97f6a4",
+      "parentUid" : "cd40cc18d2ba81a6d4fc191501925a52",
+      "status" : "failed",
+      "time" : {
+        "start" : 1545465548595,
+        "stop" : 1545465553935,
+        "duration" : 5340
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cd40cc18d2ba81a6d4fc191501925a52"
+  } ]
+}

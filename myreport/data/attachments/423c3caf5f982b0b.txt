@@ -1,0 +1,1 @@
+/Users/xinxi/Documents/ideaProjcet/SelenideDemo/build/reports/tests/test_homeHouse.png

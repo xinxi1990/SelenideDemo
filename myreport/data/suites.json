@@ -1,0 +1,41 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "TestSuite",
+    "children" : [ {
+      "name" : "test",
+      "children" : [ {
+        "name" : "testcase.Test_HomePage",
+        "children" : [ {
+          "name" : "test_homeSerach",
+          "uid" : "707bff1ca9d8092f",
+          "parentUid" : "ef0adad2fe280b37eee9e21cc6a06a78",
+          "status" : "passed",
+          "time" : {
+            "start" : 1545462128280,
+            "stop" : 1545462132345,
+            "duration" : 4065
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_homeHouse",
+          "uid" : "c696ca28230676d6",
+          "parentUid" : "ef0adad2fe280b37eee9e21cc6a06a78",
+          "status" : "failed",
+          "time" : {
+            "start" : 1545464724425,
+            "stop" : 1545464729812,
+            "duration" : 5387
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ef0adad2fe280b37eee9e21cc6a06a78"
+      } ],
+      "uid" : "ff02bb4764a56fa21af50b26d7a7f308"
+    } ],
+    "uid" : "4f26dde5cd0b5e43ba4287be426a0f93"
+  } ]
+}

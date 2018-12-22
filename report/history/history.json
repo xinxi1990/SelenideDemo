@@ -1,0 +1,41 @@
+{
+  "fcc792aa55d9b213af08940df9cd8a97" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "456b252e8a97f6a4",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.name: 北京房产}\nExpected: visible",
+      "time" : {
+        "start" : 1545465548595,
+        "stop" : 1545465553935,
+        "duration" : 5340
+      }
+    } ]
+  },
+  "76a598025dedf02a56b89e7eb9454951" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "32843e281953202",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545462128280,
+        "stop" : 1545462132345,
+        "duration" : 4065
+      }
+    } ]
+  }
+}

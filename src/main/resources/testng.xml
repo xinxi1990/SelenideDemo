@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="TestSuite" parallel="false">
+    <test name="test">
+        <classes>
+            <class name="testcase.Test_HomePage"></class>
+            <methods>
+                <include name="test_homeHouse" />
+                <!--<include name="test_homeSerach" />-->
+                <!--<include name="test_homeSerach" />-->
+            </methods>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="src.tools.AllureReporterListener" />
+        <!--<listener class-name="src.tools.TestngRetry" />-->
+    </listeners>
+</suite>

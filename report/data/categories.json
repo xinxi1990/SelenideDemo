@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {By.name: 北京房产}\nExpected: visible",
+      "children" : [ {
+        "name" : "test_homeHouse",
+        "uid" : "456b252e8a97f6a4",
+        "parentUid" : "739a196f9697e9070038aa8952071e79",
+        "status" : "failed",
+        "time" : {
+          "start" : 1545465548595,
+          "stop" : 1545465553935,
+          "duration" : 5340
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "739a196f9697e9070038aa8952071e79"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

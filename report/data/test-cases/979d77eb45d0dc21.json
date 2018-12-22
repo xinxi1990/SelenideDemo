@@ -1,0 +1,96 @@
+{
+  "uid" : "979d77eb45d0dc21",
+  "name" : "test_homeSerach",
+  "fullName" : "testcase.Test_HomePage.test_homeSerach",
+  "historyId" : "76a598025dedf02a56b89e7eb9454951",
+  "time" : {
+    "start" : 1545460720006,
+    "stop" : 1545460722932,
+    "duration" : 2926
+  },
+  "description" : "这是测试首页搜索",
+  "descriptionHtml" : "<p>这是测试首页搜索</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1545460709044,
+      "stop" : 1545460719802,
+      "duration" : 10758
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1545460722954,
+      "stop" : 1545460723133,
+      "duration" : 179
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcase.Test_HomePage"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase.Test_HomePage"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_homeSerach"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestSuite"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcase.Test_HomePage"
+  }, {
+    "name" : "host",
+    "value" : "xinxideMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "54223@xinxideMacBook-Pro.local.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Junit 4 support"
+  }, {
+    "name" : "story",
+    "value" : "测试首页搜索"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "请查看这个Issue",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "979d77eb45d0dc21.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "32843e281953202",
+  "name" : "test_homeSerach",
+  "time" : {
+    "start" : 1545462128280,
+    "stop" : 1545462132345,
+    "duration" : 4065
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "456b252e8a97f6a4",
+  "name" : "test_homeHouse",
+  "time" : {
+    "start" : 1545465548595,
+    "stop" : 1545465553935,
+    "duration" : 5340
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

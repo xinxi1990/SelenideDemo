@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [TestSuite]">
+  <listeners>
+    <listener class-name="src.tools.AllureReporterListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="test(failed)">
+    <classes>
+      <class name="testcase.Test_HomePage">
+        <methods>
+          <include name="test_homeHouse"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcase.Test_HomePage -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
