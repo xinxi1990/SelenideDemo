@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1545494305889" stop="1545494315106" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : SelenideDemo</name>
+    <title>Default Suite : SelenideDemo</title>
+    <test-cases>
+        <test-case start="1545494314409" stop="1545494314923" status="passed">
+            <name>test_homeLocal</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SelenideDemo"/>
+                <label name="testClass" value="testcase.Test_HomePage"/>
+                <label name="testMethod" value="test_homeLocal"/>
+                <label name="testId" value="5"/>
+                <label name="host" value="xinxideMacBook-Pro.local"/>
+                <label name="thread" value="3911@xinxideMacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

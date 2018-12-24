@@ -20,3 +20,15 @@ brew install allure
 
 # 运行
 根目录:run.sh
+
+
+# api使用
+## 断言元素是否存在
+
+$x(pushjob).should(exist);
+
+```
+Element not found {By.xpath: /html/body/div[2]/div/div[2]/a[1]}
+Expected: exist
+```
+ 

@@ -26,7 +26,7 @@ public class Test_HomePage extends BasePage {
 
     @Issue("请查看这个Issue")
     @Story("测试首页搜索")
-    @Description("这是测试首页搜索")
+    @Description("测试-首页-搜索")
     @Link("https://example.org")
     @TestCaseId("1")
     @Test
@@ -36,7 +36,7 @@ public class Test_HomePage extends BasePage {
 
     @Issue("请查看这个Issue")
     @Story("测试首页搜索参数化")
-    @Description("测试首页搜索参数化")
+    @Description("测试-首页-搜索参数化")
     @Link("https://example.org")
     @TestCaseId("2")
     @Test(dataProvider = "getData",dataProviderClass = SetDataProvider.class)
@@ -46,17 +46,25 @@ public class Test_HomePage extends BasePage {
 
 
     @TestCaseId("3")
-    @Description("测试首页房产-失败用例")
+    @Description("测试首页-房产-失败用例")
     @Test()
     public void test_homeHouse(){
         homePage.homeHouse();
     }
 
 
+    @TestCaseId("4")
+    @Description("测试首页-全职招聘-失败用例")
     @Test()
     public void test_homeJob(){
         homePage.homeJob();
     }
 
+    @TestCaseId("5")
+    @Description("测试首页-全职本地服务-失败用例")
+    @Test()
+    public void test_homeLocal(){
+        homePage.homeLocal();
+    }
 
 }
